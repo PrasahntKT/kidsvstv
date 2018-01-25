@@ -1,0 +1,6 @@
+framework module Pods_kidsTv {
+  umbrella header "Pods-kidsTv-umbrella.h"
+
+  export *
+  module * { export * }
+}

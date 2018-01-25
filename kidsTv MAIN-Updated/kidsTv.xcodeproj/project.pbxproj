@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B51BEC91FFFEF6A008AF433 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BEC81FFFEF6A008AF433 /* AppDelegate.swift */; };
+		4B51BECB1FFFEF6A008AF433 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BECA1FFFEF6A008AF433 /* ViewController.swift */; };
+		4B51BECE1FFFEF6A008AF433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BECC1FFFEF6A008AF433 /* Main.storyboard */; };
+		4B51BED01FFFEF6A008AF433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BECF1FFFEF6A008AF433 /* Assets.xcassets */; };
+		4B51BED31FFFEF6A008AF433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B51BED11FFFEF6A008AF433 /* LaunchScreen.storyboard */; };
+		4B51BEDB20000076008AF433 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BEDA20000076008AF433 /* Video.swift */; };
+		4B51BEDD2000012A008AF433 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BEDC2000012A008AF433 /* VideoModel.swift */; };
+		4B51BEDF2000D6F6008AF433 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B51BEDE2000D6F6008AF433 /* VideoDetailViewController.swift */; };
+		4B79DDB620041B7800D12034 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B79DDB720041B7800D12034 /* Alamofire.framework */; };
+		E10849AF9BD2582C23ACDDD5 /* Pods_kidsTv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47F194FD5E82CE808CA63A3 /* Pods_kidsTv.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		184C3E89CCF878FE487B4D23 /* Pods-kidsTv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kidsTv.release.xcconfig"; path = "Pods/Target Support Files/Pods-kidsTv/Pods-kidsTv.release.xcconfig"; sourceTree = "<group>"; };
+		1E33B21106E5F93C0EBC20D3 /* Pods-kidsTv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kidsTv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kidsTv/Pods-kidsTv.debug.xcconfig"; sourceTree = "<group>"; };
+		4B51BEC51FFFEF6A008AF433 /* kidsTv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsTv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B51BEC81FFFEF6A008AF433 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B51BECA1FFFEF6A008AF433 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B51BECD1FFFEF6A008AF433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B51BECF1FFFEF6A008AF433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B51BED21FFFEF6A008AF433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B51BED41FFFEF6A008AF433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B51BEDA20000076008AF433 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		4B51BEDC2000012A008AF433 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		4B51BEDE2000D6F6008AF433 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
+		4B51BEE12002BBAD008AF433 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B79DDB720041B7800D12034 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A47F194FD5E82CE808CA63A3 /* Pods_kidsTv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kidsTv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B51BEC21FFFEF6A008AF433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B79DDB620041B7800D12034 /* Alamofire.framework in Frameworks */,
+				E10849AF9BD2582C23ACDDD5 /* Pods_kidsTv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0575D047B632468A230B640D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E33B21106E5F93C0EBC20D3 /* Pods-kidsTv.debug.xcconfig */,
+				184C3E89CCF878FE487B4D23 /* Pods-kidsTv.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		339EC5B5EA7729A594FCE149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B79DDB720041B7800D12034 /* Alamofire.framework */,
+				4B51BEE12002BBAD008AF433 /* Alamofire.framework */,
+				A47F194FD5E82CE808CA63A3 /* Pods_kidsTv.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B51BEBC1FFFEF6A008AF433 = {
+			isa = PBXGroup;
+			children = (
+				4B51BEC71FFFEF6A008AF433 /* kidsTv */,
+				4B51BEC61FFFEF6A008AF433 /* Products */,
+				0575D047B632468A230B640D /* Pods */,
+				339EC5B5EA7729A594FCE149 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B51BEC61FFFEF6A008AF433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B51BEC51FFFEF6A008AF433 /* kidsTv.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B51BEC71FFFEF6A008AF433 /* kidsTv */ = {
+			isa = PBXGroup;
+			children = (
+				4B51BEC81FFFEF6A008AF433 /* AppDelegate.swift */,
+				4B51BECA1FFFEF6A008AF433 /* ViewController.swift */,
+				4B51BEDA20000076008AF433 /* Video.swift */,
+				4B51BEDC2000012A008AF433 /* VideoModel.swift */,
+				4B51BEDE2000D6F6008AF433 /* VideoDetailViewController.swift */,
+				4B51BECC1FFFEF6A008AF433 /* Main.storyboard */,
+				4B51BECF1FFFEF6A008AF433 /* Assets.xcassets */,
+				4B51BED11FFFEF6A008AF433 /* LaunchScreen.storyboard */,
+				4B51BED41FFFEF6A008AF433 /* Info.plist */,
+			);
+			path = kidsTv;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B51BEC41FFFEF6A008AF433 /* kidsTv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B51BED71FFFEF6A008AF433 /* Build configuration list for PBXNativeTarget "kidsTv" */;
+			buildPhases = (
+				2BF266F627945698B3810D6A /* [CP] Check Pods Manifest.lock */,
+				4B51BEC11FFFEF6A008AF433 /* Sources */,
+				4B51BEC21FFFEF6A008AF433 /* Frameworks */,
+				4B51BEC31FFFEF6A008AF433 /* Resources */,
+				569BCE18D8F6344601FF1F1A /* [CP] Embed Pods Frameworks */,
+				025B40F696CF1EA156E54BAE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kidsTv;
+			productName = kidsTv;
+			productReference = 4B51BEC51FFFEF6A008AF433 /* kidsTv.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B51BEBD1FFFEF6A008AF433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Abdul-Aziz Gabbazov";
+				TargetAttributes = {
+					4B51BEC41FFFEF6A008AF433 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4B51BEC01FFFEF6A008AF433 /* Build configuration list for PBXProject "kidsTv" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B51BEBC1FFFEF6A008AF433;
+			productRefGroup = 4B51BEC61FFFEF6A008AF433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B51BEC41FFFEF6A008AF433 /* kidsTv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B51BEC31FFFEF6A008AF433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B51BED31FFFEF6A008AF433 /* LaunchScreen.storyboard in Resources */,
+				4B51BED01FFFEF6A008AF433 /* Assets.xcassets in Resources */,
+				4B51BECE1FFFEF6A008AF433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025B40F696CF1EA156E54BAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kidsTv/Pods-kidsTv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BF266F627945698B3810D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kidsTv-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569BCE18D8F6344601FF1F1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kidsTv/Pods-kidsTv-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kidsTv/Pods-kidsTv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B51BEC11FFFEF6A008AF433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B51BECB1FFFEF6A008AF433 /* ViewController.swift in Sources */,
+				4B51BEDB20000076008AF433 /* Video.swift in Sources */,
+				4B51BEC91FFFEF6A008AF433 /* AppDelegate.swift in Sources */,
+				4B51BEDF2000D6F6008AF433 /* VideoDetailViewController.swift in Sources */,
+				4B51BEDD2000012A008AF433 /* VideoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4B51BECC1FFFEF6A008AF433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B51BECD1FFFEF6A008AF433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B51BED11FFFEF6A008AF433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B51BED21FFFEF6A008AF433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B51BED51FFFEF6A008AF433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B51BED61FFFEF6A008AF433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B51BED81FFFEF6A008AF433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E33B21106E5F93C0EBC20D3 /* Pods-kidsTv.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6J8BU7RS3;
+				INFOPLIST_FILE = kidsTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aag-co.kidsTv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B51BED91FFFEF6A008AF433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184C3E89CCF878FE487B4D23 /* Pods-kidsTv.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X6J8BU7RS3;
+				INFOPLIST_FILE = kidsTv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "aag-co.kidsTv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B51BEC01FFFEF6A008AF433 /* Build configuration list for PBXProject "kidsTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B51BED51FFFEF6A008AF433 /* Debug */,
+				4B51BED61FFFEF6A008AF433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B51BED71FFFEF6A008AF433 /* Build configuration list for PBXNativeTarget "kidsTv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B51BED81FFFEF6A008AF433 /* Debug */,
+				4B51BED91FFFEF6A008AF433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B51BEBD1FFFEF6A008AF433 /* Project object */;
+}
