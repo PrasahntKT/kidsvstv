@@ -21,13 +21,13 @@ class VideoModel: NSObject {
 //    let CHANNEL_ID = "UCDG4yO6I4PjwPQmV5CjK_UA"
     var videoArray = [Video]()
     
-    var nextPageToken: String?
+    var nextPageToken: String? = ""
     
     var delegate:VideoModelDelegate?
     
     func getFeedVideos(){
         // Check if next page exists
-        if nextPageToken == "" {
+        if nextPageToken == nil {
             // Notify the delegate that all data already loaded
 //            if self.delegate != nil{
 //                self.delegate!.allDataLoaded()
@@ -35,18 +35,24 @@ class VideoModel: NSObject {
             return
         }
 
-        // Fetch the videos dynamically through the YouTube Data API
-        Alamofire.request("https://www.googleapis.com/youtube/v3/playlistItems", method: .get, parameters: ["part":"snippet", "playlistId":UPLOADS_PLAYLIST_ID, "pageToken": nextPageToken ?? "", "key":API_KEY, "maxResults":10], encoding: URLEncoding.default, headers: nil).responseJSON {[unowned self] (response) in
+       // DispatchQueue.global().async {
+            
         
+        // Fetch the videos dynamically through the YouTube Data API
+            Alamofire.request("https://www.googleapis.com/youtube/v3/playlistItems", method: .get, parameters: ["part":"snippet", "playlistId":self.UPLOADS_PLAYLIST_ID, "pageToken": self.nextPageToken ?? "", "key":self.API_KEY, "maxResults":10], encoding: URLEncoding.default, headers: nil).responseJSON {(response) in
+        
+                
             if let JSON = response.result.value as? [String:Any]{
                 var arrayOfTheVideos = [Video]()
                 
+                self.nextPageToken = JSON["nextPageToken"] as? String
+
                 for video in JSON["items"] as! NSArray{
                     
-//                    print(JSON)
-                    
+
+                    print((video as! NSDictionary).value(forKeyPath: "snippet.resourceId.videoId") as! String)
+
                     // Remember token pointing to next page
-                    self.nextPageToken = JSON["nextPageToken"] as? String
                     print(self.nextPageToken)
                     
                     // Create video object off of the JSON responce
@@ -82,5 +88,6 @@ class VideoModel: NSObject {
                 
             }
         }
+     //   }
     }
 }
